@@ -1,0 +1,37 @@
+{
+  "token": "",
+  "clientId": "",
+  "guildId": "",
+
+  "_comment_role": "Role donnant l'acces aux salons prives. Cree-le sur ton serveur et colle son ID ici.",
+  "accessRoleId": "1523351850525655171",
+
+  "_comment_status": "Texte a detecter dans le statut personnalise du membre",
+  "requiredStatusText": ".gg/penbyme",
+
+  "_comment_modroles": "Roles autorises a utiliser les commandes de moderation (en plus des administrateurs)",
+  "modRoleIds": [],
+
+  "_comment_logs": "Salon ou seront envoyes les logs de moderation (optionnel, laisser vide pour desactiver)",
+  "logChannelId": "",
+
+  "_comment_welcome": "Role donne automatiquement + salon de bienvenue quand un membre rejoint",
+  "welcomeRoleId": "1527464474481524866",
+  "welcomeChannelId": "1527462099758874672",
+
+  "_comment_tickets": "Systeme de tickets : une categorie differente selon le type de ticket, role staff qui a acces a tous les tickets, salon de logs optionnel",
+  "ticketCategories": {
+    "aide": "1527500669181755412",
+    "achat": "1527500722025791498",
+    "owner": "1527500779064266762"
+  },
+  "ticketStaffRoleId": "1527464312396841020",
+  "ticketLogChannelId": "1527472191791300659",
+
+  "_comment_ticketEmojis": "Emoji pour chaque option du menu. Emoji classique ou emoji personnalise du serveur au format <:nom:id> (recupere-le en tapant \\ devant l'emoji dans un salon Discord)",
+  "ticketEmojis": {
+    "aide": "<:ticket:1523385397999046676>",
+    "achat": "<:shoppingcart:1523385362683007207>",
+    "owner": "<a:crown:1523385426339954821>"
+  }
+}
